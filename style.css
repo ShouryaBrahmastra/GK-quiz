@@ -1,0 +1,114 @@
+#welcome {
+    text-align: center;
+    background: black;
+}
+
+#h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Franklin Gothic Medium;
+    text-align: center;
+}
+
+#about {
+    width: 70%;
+    display: block;
+    font-size: 35px;
+    margin: 10px auto;
+    word-spacing: 5px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    font-family: Arial Narrow;
+    text-align: center;
+    color: rgb(96, 167, 243);
+}
+
+#stdName {
+    border: none;
+    width: 300px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: monospace;
+    background-color: transparent;
+    text-align: center;
+    border-bottom: 2px solid #004e92;
+}
+
+#stdName:focus {
+    outline: none;
+    text-align: center;
+}
+
+#stdName::-webkit-input-placeholder {
+    color: white;
+}
+
+.error {
+    position: relative;
+    animation: shake .1s linear;
+    animation-iteration-count: 3;
+}
+
+@keyframes shake {
+    0% {
+        left: -10px;
+    }
+    100% {
+        right: -10px;
+    }
+}
+
+#start {
+    width: 240px;
+    padding: 15px;
+    display: block;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    margin: 30px auto;
+    font-family: Tahoma;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: #004e92;
+}
+
+#start:hover {
+    transition: 0.5s;
+    margin-top: 25px;
+}
+
+#start:focus {
+    outline: none;
+}
+
+#timer {
+    display: flex;
+    font-size: 24px;
+    color: #060e57;
+    font-weight: bold;
+    padding: 0px 30px;
+    align-items: center;
+    background-color: white;
+    font-family: Lucida Sans Regular;
+}
+
+fieldset {
+    border-radius: 30px;
+    text-align: justify;
+}
+
+.quizApp {
+    text-align: center;
+}
+
+button {
+    border-radius: 25%;
+    width: 90px;
+    height: 50px;
+    background-color: cadetblue;
+}
